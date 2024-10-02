@@ -25,8 +25,7 @@
             }
     
         }
-
         public function desconectar() {
-            $this->$conexion = null;
+            $this->conectar = null;
         }
     }
